@@ -1,0 +1,71 @@
+.cajamusica {
+  width: 450px;
+  box-sizing: border-box;
+  border: 5px solid var(--general);
+  margin: auto;
+  border-radius: 20px;
+  min-height: 200px;
+  background: var(--general);
+}
+
+.cajamusica .header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cajamusica .name {
+  width: 100%;
+  text-align: center;
+  font-family: 'Noto Sans Mono';
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.cajamusica .name span {
+  font-family: 'EB Garamond';
+  text-transform: none;
+  font-weight: 500;
+  font-size: 20px;
+  display: block;
+  color: var(--accent);
+}
+
+.cajamusica .quote {
+  margin-bottom: 40px;
+  line-height: 120%;
+  font-size: 16px;
+  font-family: 'EB Garamond';
+  text-align: center;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.cajamusica .text {
+  padding: 40px;
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  word-break: break-word; 
+  hyphens: auto;
+  font-size: 12px;
+  line-height: 120%;
+  text-align: justify;
+  background: #000;
+  border-radius: 20px;
+}
+
+.cajamusica .data {
+  background: var(--general);
+  padding: 15px 15px 10px;
+  text-align: center;
+  font-family: 'Noto Sans Mono';
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.cajamusica .data b {
+  color: var(--accent);
+}
